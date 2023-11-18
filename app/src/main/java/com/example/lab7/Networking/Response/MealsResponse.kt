@@ -21,7 +21,7 @@ data class MealDetail(
     @PropertyName("id") val id: String = "",
     @PropertyName("name") val name: String = "",
     @PropertyName("imageUrl") val imageUrl: String = "",
-    @PropertyName("category") val category: String = "" // Asegúrate de que este campo exista en los documentos de Firestore.
+    @PropertyName("category") val category: String = ""
 )
 
 data class MealInstruction(
